@@ -1,5 +1,5 @@
 {
-  "name": "@yearataglance/mcp-server",
+  "name": "@mindfullabai/yearataglance-mcp",
   "version": "1.0.0",
   "description": "MCP Server for YearAtAGlance calendar integration with Claude Code",
   "main": "dist/index.js",
@@ -37,6 +37,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariomosca/yearataglance-mcp"
+    "url": "https://github.com/mindfullabai/yearataglance-mcp"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
